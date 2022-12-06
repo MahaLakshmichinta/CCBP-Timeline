@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.container-course-timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.course-card-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading-timeline {
+  font-size: 17px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.clock {
+  margin-left: 250px;
+  font-size: 18px;
+}
+.description {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.list_elements {
+  display: flex;
+  flex-wrap: wrap;
+}
+.para-element {
+  height: 35px;
+  padding: 10px;
+  border-radius: 9px;
+  background-color: #cbd5e1;
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: 700;
+  border: none;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c-course {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
